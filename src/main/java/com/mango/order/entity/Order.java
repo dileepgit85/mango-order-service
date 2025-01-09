@@ -16,7 +16,7 @@ import java.util.List;
 @Document("order")
 public class Order {
     private Integer orderId;
-    private List<FoodItemDTO> foodItemList;
+    private List<FoodItemDTO> foodItems;
     private RestaurantDTO restaurant;
     private UserDto user;
 }

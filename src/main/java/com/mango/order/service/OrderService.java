@@ -6,7 +6,6 @@ import com.mango.order.dto.UserDto;
 import com.mango.order.entity.Order;
 import com.mango.order.mapper.OrderMapper;
 import com.mango.order.repo.OrderRepo;
-import com.netflix.discovery.converters.Auto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

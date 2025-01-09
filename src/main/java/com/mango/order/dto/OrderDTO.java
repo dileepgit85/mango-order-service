@@ -10,7 +10,8 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class OrderDTO {
-    private Integer userId;
+    private Integer orderId;
     private List<FoodItemDTO> foodItems;
     private RestaurantDTO restaurant;
+    private UserDto user;
 }
